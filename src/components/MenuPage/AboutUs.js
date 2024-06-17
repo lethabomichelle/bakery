@@ -5,7 +5,7 @@ function AboutUs() {
         <div className="container">
             <div className="card mt-6">
                 <div className="card-body container col-xxl-8 px-4 py-5">
-                    <h1>About Breadwinner Bakery</h1>
+                    <h1 style={{ color: '#c79f70' }}>About Breadwinner Bakery</h1>
                     <h5>Born in Emalahleni, Baked with Passion:</h5>
                     <br />
                     <p >The aroma of freshly baked bread isn't just a delightful fragrance; it's a symbol of community, warmth, and shared experiences. That's the philosophy behind Breadwinner Bakery, which began its journey in 2023 right here in the heart of Emalahleni, Mpumalanga.</p>
@@ -17,7 +17,7 @@ function AboutUs() {
                     <p>Breadwinner Bakery aspires to be more than just a place to buy delicious treats. We envision it as a warm and welcoming space, a haven where the scent of fresh bread mingles with laughter and community spirit. We want to be your go-to spot for a quick breakfast on the go, a relaxing afternoon coffee break with friends, or a place to celebrate life's special occasions with a decadent cake.</p>
                     <br />
                     <h4>Visit Breadwinner Bakery - Where memories are made, one bite at a time.</h4>
-                    <a href="/contactus">Visit Breadwinner Bakery</a>
+                    <a style={{ color: 'red' }} href="/contactus">Visit Breadwinner Bakery</a>
                 </div>
             </div>
 
