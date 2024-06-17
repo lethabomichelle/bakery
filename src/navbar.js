@@ -7,18 +7,18 @@ import './navbar.css';
 
 function Navbar() {
     return (
-        <Nav fill variant="tabs" defaultActiveKey="/home">
+        <Nav fill fixed variant="tabs" >
             <Nav.Item>
-                <Nav.Link href="/home" class="nav-link active">HOME</Nav.Link>
+                <Nav.Link href="/homepage" class="nav-link active">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/menu" class="nav-link active">MENU</Nav.Link>
+                <Nav.Link href="/menu" class="nav-link active">Menu</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/aboutus" class="nav-link active">ABOUT US</Nav.Link>
+                <Nav.Link href="/aboutus" class="nav-link active">About Us</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/contactus" class="nav-link active">CONTACT US</Nav.Link>
+                <Nav.Link href="/contactus" class="nav-link active">Contact Us</Nav.Link>
             </Nav.Item>
         </Nav>
     );
