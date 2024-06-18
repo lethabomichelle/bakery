@@ -6,7 +6,7 @@ function Homepage() {
         <>
             <div class="container text-center">
                 <div class="row" style={{ marginTop: '25px' }}>
-                    <div class="col" style={{ textAlign: 'right' }}>
+                    <div class="col" style={{ textAlign: 'right', marginRight: '35px' }}>
                         <h1 style={{ color: '#c79f70' }}>Breadwinner Bakery</h1>
                         WHOLESALE BAKERY IN EMALAHLENI, MP
                     </div>
@@ -19,8 +19,8 @@ function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className="container p-4 p-md-5 mb-4 rounded text-body-emphasis ">
-                <h1 style={{ textAlign: 'center', color: '#c79f70', marginBottom: '30px' }} ><em>Our Products</em></h1>
+            <div className="container p-4 p-md-5 mb-4 rounded text-body-emphasis " style={{ textAlign: 'center' }}>
+                <h1 style={{ color: '#c79f70', marginBottom: '30px' }} ><em>Our Products</em></h1>
                 <div className="row">
                     <div className="col-lg-4">
                         <img src="https://images.pexels.com/photos/8633662/pexels-photo-8633662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="bd-placeholder-img rounded-circle" width="260" height="260" alt="Placeholder" style={{ marginBottom: '30px' }} />
@@ -91,15 +91,15 @@ function Homepage() {
                     padding: '4rem 5rem',
                     margin: '5rem 0',
                     textAlign: 'center',
-                    color: 'white'
+                    color: 'black'
                 }}
             >
                 <h1 class="display-5 fw-bold body-emphasis">Contact Breadwinner Bakery</h1>
                 <h6><b>Your Bread and Cake in Emalahleni, MP</b></h6>
                 <a href="/contactus" class="btn btn-danger btn-lg px-4 gap-3">WHOLESALE PRICING AVAILABLE</a>
                 <h3 class=" fw-bold body-emphasis">Business Hours:</h3>
-                <h6 style={{ color: 'white' }}><b>Mon To Fri: 7 AM to 5 PM | Sat &
-                    Sun 7 AM to 4 PM| Holidays : 8 AM to 2 PM</b></h6>
+                <h6 ><b>Mon To Fri: 7 AM to 5 PM | Sat &
+                    Sun 7 AM to 4 PM|<br /> Holidays :  8 AM to 2 PM</b></h6>
                 <a href="/contactus" class="btn btn-danger btn-lg px-4 gap-3">Get In Touch</a>
             </div>
         </>
