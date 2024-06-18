@@ -19,9 +19,9 @@ function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className="container p-4 p-md-5 mb-4 rounded text-body-emphasis " style={{ textAlign: 'center' }}>
-                <h1 style={{ color: '#c79f70', marginBottom: '30px' }} ><em>Our Products</em></h1>
-                <div className="row">
+            <div className="container p-4 p-md-5 mb-4 rounded text-body-emphasis " >
+                <h1 style={{ textAlign: 'center', color: '#c79f70', marginBottom: '30px' }} ><em>Our Products</em></h1>
+                <div className="row" style={{ textAlign: 'center' }}>
                     <div className="col-lg-4">
                         <img src="https://images.pexels.com/photos/8633662/pexels-photo-8633662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="bd-placeholder-img rounded-circle" width="260" height="260" alt="Placeholder" style={{ marginBottom: '30px' }} />
                         <h2 className="fw-normal">BREAD</h2>
